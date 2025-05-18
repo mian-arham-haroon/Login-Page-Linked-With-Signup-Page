@@ -62,7 +62,7 @@ Built with Tkinter GUI, PIL for images, and PyMySQL for database operations.
 3. **Setup MySQL:**
 
    * Ensure MySQL server is running on your machine.
-   * The app uses MySQL user `'root'` and password `'arham@12345678@'` (change in the code if needed).
+   * The app uses MySQL user `'root'` and password `'----------'` (change in the code if needed).
    * The database `userdata` and table `data` will be created automatically.
 
 4. **Run the application:**
