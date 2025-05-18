@@ -75,7 +75,7 @@ def login_user():
 
     else:
         try:
-            con=pymysql.connect(host='localhost', user='root', password='arham@12345678@')
+            con=pymysql.connect(host='localhost', user='root', password='------------')
             mycursor = con.cursor()
             
         except:
