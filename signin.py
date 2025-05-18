@@ -10,7 +10,7 @@ def forget_pass():
         elif newpass_enter.get()!=confiermpass_enter.get():    
             messagebox.showerror('Error','Password and Confirm Password are not matching',parent=window)
         else:
-            con=pymysql.connect(host='localhost', user='root', password='arham@12345678@',database='userdata')
+            con=pymysql.connect(host='localhost', user='root', password='-------------',database='userdata')
             mycursor = con.cursor()
             query='select * from data where username=%s'
             mycursor.execute(query,(user_enter.get()))
