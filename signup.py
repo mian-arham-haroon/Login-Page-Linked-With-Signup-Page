@@ -19,7 +19,7 @@ def connect_database():
     else:
         try:
             # Connect to MySQL
-            con = pymysql.connect(host='localhost', user='root', password='arham@12345678@')
+            con = pymysql.connect(host='localhost', user='root', password='----------')
             mycursor = con.cursor()
 
             # Create database if not exists
